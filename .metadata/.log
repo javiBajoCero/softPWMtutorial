@@ -1,0 +1,22 @@
+!SESSION 2021-07-07 20:34:30.443 -----------------------------------------------
+eclipse.buildId=Version 1.6.1
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  C:\Users\Javier\Desktop\softPWMtutorial\softpwm\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Javier\Desktop\softPWMtutorial\softpwm\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-07-07 20:35:04.604
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-07-07 20:35:04.682
+!MESSAGE Log4j initialized with config file C:\Users\Javier\Desktop\softPWMtutorial\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-07-07 20:35:24.796
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-07 20:36:20.198
+!MESSAGE Indexed 'softpwm' (19 sources, 50 headers) in 33.1 sec: 5,659 declarations; 31,424 references; 16 unresolved inclusions; 294 syntax errors; 2,604 unresolved names (6.6%)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-07-07 20:36:29.037
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties

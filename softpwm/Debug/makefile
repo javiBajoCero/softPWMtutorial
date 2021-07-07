@@ -61,8 +61,8 @@ all: main-build
 main-build: softpwm.elf secondary-outputs
 
 # Tool invocations
-softpwm.elf: $(OBJS) $(USER_OBJS) C:\Users\Javier\Desktop\softpwm\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "softpwm.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Javier\Desktop\softpwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="softpwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+softpwm.elf: $(OBJS) $(USER_OBJS) C:\Users\Javier\Desktop\softPWMtutorial\softpwm\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "softpwm.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Javier\Desktop\softPWMtutorial\softpwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="softpwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
